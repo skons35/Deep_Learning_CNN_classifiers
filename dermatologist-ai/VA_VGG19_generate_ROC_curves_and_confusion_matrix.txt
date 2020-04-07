@@ -1,0 +1,1 @@
+python get_results.py sample_predictions_VGG19_VA.csv 0.4 
