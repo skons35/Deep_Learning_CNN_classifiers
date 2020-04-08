@@ -16,17 +16,20 @@ launch command :
 jupyter notebook
 ```
 (Your browser will open and present that folder tree),
-- On the presented web page, go into * demataologit-ai * folder, then open one
+- On the presented web page, go into *demataologit-ai* folder, then open one
 proposed CNN classifier : 
-**dermatologist-ai-VA-CNN.ipynb**   (for my implementation of CNN using Pytorch),
-**dermatologist-ai-use-transfer-learning.ipynb**  (for using a pre-trained *VGG19_bn pytorch* CNN model, with classifier's part beeing adjusted to classification needs)
+  - **dermatologist-ai-VA-CNN.ipynb**   
+    for my implementation of CNN using Pytorch,
+  - **dermatologist-ai-use-transfer-learning.ipynb**
+    for using a pre-trained *VGG19_bn pytorch* CNN model,
+	with classifier's part beeing adjusted to classification needs
 
 3 classes are to be managed, as skin diseases.
 
 
-Find below the Udacity miniproject / challenge information :
+Find below the Udacity miniproject / challenge information (slightly reviewed):
  
-# Original (slightly reviewed) mini project infos & challenge infos :
+# Udacity mini project infos & challenge infos :
 
 [//]: # (Image References)
 
