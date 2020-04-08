@@ -1,26 +1,32 @@
 # Deep_Learning_CNN_classifiers
-Here are proposed two skin diseases classifiers (CNN, one using Transfer learning),
+Here are proposed *two skin diseases classifiers* (2 CNN, with one using *Transfer learning*),
  each  in a Python Notebook, on public database
 
-- before trying to run the notebooks, you need to download & install the train/test/validation data in the right folder.
+## Prerequisite
+Before trying to run the notebooks, you need to download & install the train/test/validation data in the right folder.
 See below information & links.
+Also install the python packages needed (see *dermatologist-ai/requirement.txt* file)
 
+## Usage
 - To select one of the 2 proposed CNN implementation,
  follow the next steps : 
-> open a cmd line, go to repository root folder,
-launch command : jupyter notebook
+- open a cmd line, go to repository root folder,
+launch command : 
+```
+jupyter notebook
+```
 (Your browser will open and present that folder tree),
-> on the presented web page, go into demataologit-ai folder, then open one
+- On the presented web page, go into * demataologit-ai * folder, then open one
 proposed CNN classifier : 
-- dermatologist-ai-VA-CNN.ipynb   (for my implementation of CNN using Pytorch),
-- dermatologist-ai-use-transfer-learning.ipynb  (for using a pre-trained VGG19_bn pytorch CNN model, with classifier's part beeing adjusted to classification needs)
+**dermatologist-ai-VA-CNN.ipynb**   (for my implementation of CNN using Pytorch),
+**dermatologist-ai-use-transfer-learning.ipynb**  (for using a pre-trained *VGG19_bn pytorch* CNN model, with classifier's part beeing adjusted to classification needs)
 
 3 classes are to be managed, as skin diseases.
 
 
 Find below the Udacity miniproject / challenge information :
  
-====================== reviewed original mini project infos & challenge was : =====================
+# Original (slightly reviewed) mini project infos & challenge infos :
 
 [//]: # (Image References)
 
